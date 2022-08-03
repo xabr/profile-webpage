@@ -15,8 +15,8 @@ body {
 h1 {
   font-weight: 300;
   color: rgba(0, 0, 0, 0.9);
-  line-height: 70%;
-  letter-spacing: 10px;
+  line-height: 50%;
+  letter-spacing: 7px;
   padding: 20px;
   margin: 0;
 }
@@ -47,8 +47,8 @@ a:hover {
 
 .first-card {
   box-shadow: 0 10px 30px rgba(0,0,0,.2);
-  background-color: rgba(210, 213, 221, .7);
-  border-radius: 10px;
+  background-color: rgba(210, 213, 221, .8);
+  border-radius: 50px;
   width: 50%;
   margin: 30px auto;
   padding: 40px;
@@ -58,7 +58,7 @@ a:hover {
 .social {
   box-shadow: 0 10px 30px rgba(0,0,0,.2);
   background-color: rgba(121, 128, 113, .5);
-  border-radius: 20px;
+  border-radius: 50px;
   width: 50%;
   margin: 20px auto;
   padding-left: 40px;
