@@ -3,8 +3,42 @@
 body {
   font-family: 'Lato', sans-serif;
   color: rgb(0, 0, 0);
-  background-color: rgb(121, 128, 113);
+  background-color: lemonchiffon;
   word-break: break-word;
+}
+.layoutflexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+.pc1 {
+  text-align: center;
+  width: 20%;
+}
+
+.pc2 {
+  text-align: center;
+  width: 20%;
+}
+
+.first-card {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+  background-color: #000532 !important;
+  border-radius: 24px;
+  margin: 10px auto;
+  padding: 40px;
+  text-align: center;
 }
 
 #img-first-card {
@@ -14,85 +48,77 @@ body {
 
 h1 {
   font-weight: 300;
-  color: rgba(0, 0, 0, 0.9);
-  line-height: 70%;
-  letter-spacing: 10px;
-  padding: 20px;
-  margin: 0;
+  font-size: 2em;
+  color: lemonchiffon;
+  margin: 0 auto;
+
 }
 
 h2 {
   font-weight: 300;
-  color: rgba(0, 0, 0, 0.9);
-  line-height: 70%;
+  font-size: 1.5em;
+  color: lemonchiffon;
   padding: 20px;
-  margin: 0;
-}
-
-h3 {
-  font-weight: 100;
-  font-size: 80%;
-  color: rgba(0, 0, 0, 0.9);
-  line-height: 70%;
+  margin: 0 auto;
 }
 
 p {
-  padding: 5px;
   font-weight: 100;
-  font-size: 20px;
-  color: rgba(0, 0, 0, 0.9);
+  margin: 0 auto;
+  font-size: 1.5em;
+  color: lemonchiffon;
 }
 
 a {
   text-decoration: none;
-  font-size: medium;
-  color: rgb(255, 255, 255);
-  background-color: rgb(153, 154, 198);
+  color: lemonchiffon;
 }
 
 a:hover {
-  color: rgb(0, 0, 0);
-  background-color: rgb(153, 154, 198);
+  color: goldenrod;
+}
+.js30 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.first-card {
-  box-shadow: 0 10px 30px rgba(0,0,0,.2);
-  border-radius: 10px;
-  width: 50%;
-  margin: 30px auto;
-  padding: 40px;
-  background-color: rgb(210, 213, 221);
-  text-align: center;
-}
 
 .social {
-  box-shadow: 0 10px 30px rgba(0,0,0,.2);
-  border-radius: 10px;
-  width: 50%;
-  margin: 20px auto;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: rgb(210, 213, 221);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin: 0px auto;
+  margin-top: 20px;
   text-align: center;
 }
 
-.social-ul {
-  display: inline-block;
-  padding: 0;
-  margin: 0;
+.social-element {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
-.btn-bluebell {
-  background-color: rgb(184, 186, 207);
-  border-radius: 4px;
-  color: rgba(0, 0, 0, 0.9)
-  border-radius: 4px;
-  margin: 8px 0;
-  padding: 8px 24px;
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container1 {
+    width: 700px;
+  }
 }
 
-ul {
-  padding: 0;
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container1 {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container1 {
+    width: 300px;
+  }
 }
