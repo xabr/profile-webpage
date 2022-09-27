@@ -5,16 +5,24 @@ body {
   color: rgb(0, 0, 0);
   background-color: lemonchiffon;
   word-break: break-word;
+}
+.layoutflexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
 
 }
 
-.phone {
-  border: 3px solid black;
-  background-color: black;
-  border-radius: 24px;
-  margin: 0 auto;
-  width: 60%;
-  padding: 10px;
+.pc1 {
+  text-align: center;
+  width: 20%;
+}
+
+.pc2 {
+  text-align: center;
+  width: 20%;
 }
 
 .first-card {
@@ -55,19 +63,19 @@ h2 {
 }
 
 p {
-  padding: 5px;
   font-weight: 100;
+  margin: 0 auto;
   font-size: 1.5em;
   color: lemonchiffon;
 }
 
 a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: lemonchiffon;
 }
 
 a:hover {
-  color: rgb(0, 0, 0);
+  color: lemonchiffon;
 }
 
 
@@ -78,24 +86,14 @@ a:hover {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 10px 30px rgba(0,0,0,.2);
-  background-color: #000532 !important;
-  border-radius: 50%;
-  height: 60px;
-  width: 60px;
+  font-size: 2em;
   margin: 10px auto;
   text-align: center;
 }
 
 .social-element {
-  padding: 0;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin: 5px;
-}
-
-ul {
-  padding: 0;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 @media (max-width: 960px) {
