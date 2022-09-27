@@ -77,17 +77,23 @@ a {
 a:hover {
   color: goldenrod;
 }
+.js30 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 
 .social {
-  border: 1px solid black;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   font-size: 2em;
-  margin: 10px auto;
+  margin: 0px auto;
+  margin-top: 20px;
   text-align: center;
 }
 
